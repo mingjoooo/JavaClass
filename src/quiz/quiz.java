@@ -18,31 +18,7 @@ public class quiz  {
 
 	public static void RockPaperScissors(String[] args) {
 		
-		int user;
-		int computer;
-		int count =0;
 		
-		Random random = new Random();
-		Scanner scanner = new Scanner(System.in);
-		
-		String[] rockPaperScissors = {"가위","바위","보"};
-		
-		while(true) {
-			System.out.println("무엇을 내겠습니까?(1: 가위, 2:바위, 3:보) : ");
-			
-			user = scanner.nextInt()	;
-			computer = random.nextInt(4);
-			
-			if(user>3 || user <1) {
-				System.out.println("가위바위보 할줄 모르세요? 제대로 내세요^^;");
-				continue;
-			}
-			if(user==computer) {
-				System.out.println("사용자 : 보, 컴퓨터 : 보\r\n"+ "비겼습니다.\r\n"+ "");
-				count++;
-			}
-			else if(user)
-		}
 		
 	}
 }
