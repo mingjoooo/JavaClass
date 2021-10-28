@@ -19,7 +19,7 @@ public class DBConnect {
 			 */
 			Class.forName("oracle.jdbc.OracleDriver");
 			/*
-			2.오라클 연결을 위한 커넥션URL, 계정아읻, 패스워드를 준비한다.
+			2.오라클 연결을 위한 커넥션URL, 계정아이디, 패스워드를 준비한다.
 			jdbc:oracle:thin:@오라클서버의IP주소:포트번호:SID명
 			※서버환경에 따라 ip주소, 포트번호, sid는 변경될수 있다.
 			*/
